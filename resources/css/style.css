@@ -157,18 +157,27 @@ h3 {
   height: 800px;
   align-items: center;
   background-color: ;
+  flex-direction: column;
   border: 2px blue solid;
 }
 
 .courses .section-title {
-
+  border: 2px blue solid;
 }
 
 .courses .course-box {
-
+  display: flex;
+  border: 2px blue solid;
 }
 
+.courses .course-box .box {
+  border: 2px blue solid;
+}
 
+.courses .course-box .box img {
+  width: 115px;
+  border: 2px blue solid;
+}
 
 /* Exhibit */
 
