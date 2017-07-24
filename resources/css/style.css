@@ -41,7 +41,7 @@ p, span, a, h2, h3, li {
   }
 
 p {
-  opacity: 50%;
+  opacity: 0.6;
 }
 
 #title {
