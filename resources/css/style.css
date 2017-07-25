@@ -40,8 +40,10 @@ p, span, a, h2, h3, li {
    line-height: 1.4;
   }
 
-p {
-  opacity: 0.6;
+p,
+footer span,
+footer ul li {
+  opacity: 0.55;
 }
 
 #title {
@@ -71,6 +73,10 @@ p {
 
 .bold {
   font-weight: bold;
+}
+
+.grey {
+  opacity: 0.55;
 }
 
 .nav-items {
@@ -109,8 +115,9 @@ header {
   margin: 2rem 0;
 }
 
-.header .container-right p {
-  margin-bottom: 3rem;
+.intro {
+  display: block;
+  margin-bottom: 2rem;
   color: black;
 }
 
