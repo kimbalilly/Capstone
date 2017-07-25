@@ -215,17 +215,16 @@ header {
   margin-bottom: 0.75rem;
 }
 
-.info .info-box a {
+.info .supporting-copy a {
   margin-bottom: 0.5rem;
   margin-right: auto;
   font-weight: bold;
-  transition-property: all;
-  transition-duration: 400ms;
-  transition-delay: 200ms;
+  transition-property: underline;
+  transition-duration: 200ms;
   transition-timing-function: ease-in-out;
 }
 
-.info-box a:hover {
+.info .supporting-copy a:hover {
   text-decoration: underline;
 }
 
