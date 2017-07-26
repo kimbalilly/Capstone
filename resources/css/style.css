@@ -476,7 +476,7 @@ footer {
   }
 
   .mobile-nav .nav-items li {
-    margin: 1rem 1rem;
+    margin: 1rem 2rem;
     cursor: pointer;
     border-bottom: none;
   }
@@ -552,7 +552,7 @@ footer {
   }
 
 
-  /* Exibit */
+  /* Exhibit */
 
   .exhibit .container-right {
     display: none;
@@ -592,5 +592,23 @@ footer {
 /* Break 4 ---------------------------------- */
 
 @media only screen and (max-width:450px) {
+
+  /* Exhibit */
+
+  .box {
+    max-width: 150px;
+  }
+
+  /* Footer */
+
+  .footer li {
+    padding-right: 1rem;
+    margin-left: 0;
+  }
+
+  .footer ul {
+    margin-right: 0;
+  }
+
 
 }
