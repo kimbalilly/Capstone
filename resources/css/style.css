@@ -168,7 +168,7 @@ header {
 }
 
 .main-image img {
-  width: 100%;
+  max-width: 100%;
   border-radius: 10px;
 }
 
@@ -257,7 +257,7 @@ header {
 
 .course-box {
   display: flex;
-  margin: auto;
+  margin: 0 0 1rem 0;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -299,9 +299,6 @@ header {
   margin-bottom: 1rem;
 }
 
-#bottom-margin {
-  margin-bottom: 2rem;
-}
 
 /* Exhibit */
 
@@ -378,6 +375,7 @@ video {
 
 footer {
   border-top: 1px #E7E7E7 solid;
+  font-size: .8rem;
 }
 
 .footer {
@@ -404,4 +402,77 @@ footer {
 
 .footer li:hover {
   text-decoration: underline;
+}
+
+/* Break 1 ---------------------------------- */
+
+@media only screen and (max-width:805px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Break 2 ---------------------------------- */
+
+@media only screen and (max-width:768px) {
+
+  /* Universal */
+
+  html {
+    font-size: 14px;
+  }
+
+  /* Header */
+
+  .header img {
+    max-width: 47%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  /* Info */
+
+  .main-image img {
+    max-width: 92%;
+  }
+
+  .info .supporting-image img {
+      display: none;
+  }
+
+  /* Exhibit */
+
+  .exhibit .supporting-image img {
+      display: none;
+  }
+
+  .exhibit .info-box {
+    padding-bottom: 2rem;
+  }
+}
+
+/* Break 3 ---------------------------------- */
+
+@media only screen and (max-width:600px) {
+
+  /* Header */
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+
+
+  /* Exhibit */
+
+
+
+}
+
+/* Break 4 ---------------------------------- */
+
+@media only screen and (max-width:0px) and (max-width:450px) {
+
 }
