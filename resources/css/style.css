@@ -153,10 +153,6 @@ header {
   opacity: 0.7;
 }
 
-.button:visited {
-  opacity: 1;
-}
-
 /* Info */
 
 .info {
@@ -182,6 +178,7 @@ header {
 
 .credentials {
   margin-top: 2rem;
+  font-style: italic;
 }
 
 .info .container-right {
@@ -274,7 +271,6 @@ header {
   cursor: pointer;
   transition-property: transform;
   transition-duration: 300ms;
-
 }
 
 .box:hover {
@@ -343,6 +339,7 @@ video {
 
 .exhibit .container-right {
   display: flex;
+  margin-top: -1rem;
   flex-direction: column;
   width: 50%;
   height: auto;
@@ -350,7 +347,15 @@ video {
 
 .exhibit .info-box {
   display: flex;
-  padding: 0 1rem 1rem 1rem;
+  padding: 1rem 0 1rem 1rem;
+  cursor: pointer;
+  transition-property: all;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+}
+
+.exhibit .info-box:hover {
+  background-color: #E7E7E7;
 }
 
 .exhibit .supporting-image img {
@@ -394,4 +399,9 @@ footer {
 
 .footer li {
   margin-left: 16px;
+  cursor: pointer;
+}
+
+.footer li:hover {
+  text-decoration: underline;
 }
