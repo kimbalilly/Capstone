@@ -91,9 +91,10 @@ footer ul li {
   transition-property: border-bottom;
   transition-duration: 200ms;
   transition-timing-function: ease-in-out;
+  cursor: pointer;
 }
 
-.nav-items li:hover {
+.nav-items li:hover:focus {
   border-bottom: 2px #C70070 solid;
 }
 
@@ -262,6 +263,14 @@ header {
   background-color: white;
   margin: 0 0.5rem 1rem 0.5rem;
   border-radius: 5px;
+  cursor: pointer;
+  transition-property: transform;
+  transition-duration: 300ms;
+
+}
+
+.box:hover {
+  transform: scale(1.01);
 }
 
 .box img {
