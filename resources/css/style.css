@@ -94,7 +94,7 @@ footer ul li {
   cursor: pointer;
 }
 
-.nav-items li:hover:focus {
+.nav-items li:hover {
   border-bottom: 2px #C70070 solid;
 }
 
@@ -147,6 +147,14 @@ header {
 
 .button:hover {
   opacity: 0.7;
+}
+
+.button:focus {
+  opacity: 0.7;
+}
+
+.button:after {
+  opacity: 1;
 }
 
 /* Info */
