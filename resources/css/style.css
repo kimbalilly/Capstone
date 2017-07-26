@@ -86,13 +86,15 @@ footer ul li {
 
 .nav-items li {
   margin-left: 16px;
-  transition-property: all;
+  padding: 1rem 0;
+  border-bottom: 2px transparent solid;
+  transition-property: border-bottom;
   transition-duration: 200ms;
   transition-timing-function: ease-in-out;
 }
 
 .nav-items li:hover {
-  border-bottom: 1px black solid;
+  border-bottom: 2px #C70070 solid;
 }
 
 /* Header */
@@ -137,7 +139,7 @@ header {
   color: white;
   font-weight: 700;
   border-radius: 10px;
-  transition-property: all;
+  transition-property: opacity;
   transition-duration: 200ms;
   transition-timing-function: ease-in-out;
 }
@@ -218,14 +220,16 @@ header {
 .info .supporting-copy a {
   margin-bottom: 0.5rem;
   margin-right: auto;
+  padding-bottom: 0.5rem;
   font-weight: bold;
-  transition-property: text-decoration;
+  border-bottom: 2px transparent solid;
+  transition-property: border-bottom;
   transition-duration: 200ms;
   transition-timing-function: ease-in-out;
 }
 
 .info .supporting-copy a:hover {
-  text-decoration: underline;
+  border-bottom: 2px #C70070 solid;
 }
 
 /* Courses */
