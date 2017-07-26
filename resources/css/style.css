@@ -185,7 +185,7 @@ header {
   display: flex;
   flex-direction: column;
   padding: 1rem 0;
-  width: 50%;
+  max-width: 50%;
   height: auto;
   border-left: 1px #E7E7E7 solid;
 }
@@ -428,10 +428,6 @@ footer {
     max-width: 47%;
   }
 
-  h1 {
-    font-size: 2rem;
-  }
-
   /* Info */
 
   .main-image img {
@@ -457,22 +453,85 @@ footer {
 
 @media only screen and (max-width:600px) {
 
+  /* Nav */
+
   /* Header */
 
+  .header {
+    display: block;
+    margin: auto;
+    padding-bottom: 1rem;
+  }
+
+  .header img {
+    max-width: 100%;
+    margin: auto;
+    border-radius: 0px;
+  }
+
+  .header .container-right {
+    max-width: 100%;
+    text-align: center;
+    margin: 2rem 2rem;
+  }
+
   h1 {
-    font-size: 1.5rem;
+    font-size: 2rem;
+  }
+
+  .button {
+    max-width: 50%;
+    margin: auto;
+  }
+
+  /* Info */
+
+  .info .container-left {
+    display: none;
+  }
+
+  .info .container-right {
+    border-left: none;
+    max-width: 100%;
+  }
+
+  .info .info-box {
+    padding: 1rem 1rem;
+  }
+
+  .info .supporting-image img {
+    display: block;
+  }
+
+  .info .supporting-copy a {
+    margin-bottom: 0;
+  }
+
+  /* Courses */
+
+  .box {
+    max-width: 200px;
+  }
+
+  .box h3 {
+    text-align: center;
+    margin: 1rem 0.5rem;
+  }
+
+  .box .supporting-copy {
+    margin: 0;
+  }
+  .box p, #subject {
+    display: none;
   }
 
 
-
-  /* Exhibit */
-
-
+  /* Exibit */
 
 }
 
 /* Break 4 ---------------------------------- */
 
-@media only screen and (max-width:0px) and (max-width:450px) {
+@media only screen and (max-width:450px) {
 
 }
