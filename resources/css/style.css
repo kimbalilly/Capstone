@@ -95,7 +95,7 @@ footer ul li {
   width: 2.15rem;
 }
 
-.desktop-nav.bold {
+.desktop-nav .bold {
   font-weight: bold;
 }
 
