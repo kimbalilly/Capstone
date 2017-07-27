@@ -50,7 +50,7 @@ footer ul li {
   -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=55)";
 }
 
-#title {
+.title {
   font-family: 'Roboto Slab', serif;
   font-weight: 700;
 }
@@ -406,7 +406,7 @@ header {
   margin: 0.5rem 0.5rem 0.5rem 0;
 }
 
-#subjects {
+.subjects {
   margin-bottom: 16px;
   margin-bottom: 1rem;
 }
@@ -570,9 +570,11 @@ footer {
 /* Break 1 ---------------------------------- */
 
 @media only screen and (max-width:805px) {
+
   h1 {
     font-size: 2rem;
   }
+
 }
 
 /* Break 2 ---------------------------------- */
@@ -610,6 +612,7 @@ footer {
   .exhibit .info-box {
     padding-bottom: 2rem;
   }
+
 }
 
 /* Break 3 ---------------------------------- */
@@ -719,7 +722,6 @@ footer {
     display: none;
   }
 
-
   /* Exhibit */
 
   .exhibit .container-right {
@@ -778,6 +780,5 @@ footer {
   .footer ul {
     margin-right: 0;
   }
-
 
 }
